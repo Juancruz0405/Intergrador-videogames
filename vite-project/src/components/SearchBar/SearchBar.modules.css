@@ -1,0 +1,89 @@
+/* SearchBar.modules.css */
+.filtros {
+  margin-left: 350px;
+  margin-top: -35px;
+}
+.SearchBar {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: -30px;
+}
+
+.videogames {
+  font-family: "Roboto Condensed", sans-serif;
+  position: relative;
+  font-size: 35px;
+  /* left: -860px; */
+  top: 29px;
+  color: rgba(91, 192, 222, 0.9);
+  font-family: "Saira", sans-serif;
+  text-shadow: 0 0px 40px rgba(52, 113, 131, 0.659);
+  transition: transform 0.3s ease;
+  margin-right: 1650px;
+}
+.videogames:hover {
+  transform: scale(
+    1.1
+  ); /* Escala el elemento al 110% cuando el mouse está sobre él */
+}
+
+.videogames-link {
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  color: inherit; /* Mantiene el color del texto heredado */
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 500px;
+  margin-top: -35px;
+}
+
+.input {
+  padding: 10px;
+  margin-right: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.eLboton {
+  background-color: #06222b;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: background-color 1s, color 0.5s, border 0.5s;
+  margin-bottom: 15px;
+}
+
+.eLboton:hover {
+  background-color: white;
+  color: #083340;
+}
+
+.botonCreate {
+  position: absolute;
+  background-color: #06222b;
+  color: rgba(91, 192, 222, 0.9);
+  padding: 10px 20px;
+  font-size: 14px;
+  border: 2px solid;
+  cursor: pointer;
+  transition: background-color 1s, color 0.5s, border 0.5s;
+  margin-top: -26px;
+  margin-left: 15px;
+}
+
+.botonCreate:hover {
+  background-color: rgba(91, 192, 222, 0.9);
+  color: #083340;
+  border: none;
+  box-shadow: 0 0px 40px rgba(91, 192, 222, 0.9);
+}
+option {
+  background-color: gray;
+}

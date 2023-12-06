@@ -1,0 +1,68 @@
+/* Paginado.modules.css */
+.botonPaginado {
+  background-color: rgba(00, 00, 00, 0);
+  color: white;
+  border: 1px solid white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+.botonPaginado1 {
+  background-color: rgba(00, 00, 00, 0);
+  color: white;
+  border: 1px solid white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+.botonPaginado1:hover {
+  background-color: white;
+  color: black;
+}
+.botonPaginado1:focus {
+  /* Estilos adicionales cuando el botón está enfocado (clicado) */
+  background-color: white;
+  color: black;
+}
+.spanPaginado {
+  margin: 0 4px;
+}
+
+/* Otros estilos que quieras agregar para el contenedor principal o cualquier otro elemento */
+.botonPaginado {
+  background-color: rgba(00, 00, 00, 0);
+  color: white;
+  border: 1px solid white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+.botonPaginado:hover {
+  background-color: white;
+  color: black;
+}
+.botonPaginado:focus {
+  /* Estilos adicionales cuando el botón está enfocado (clicado) */
+
+  color: black;
+}

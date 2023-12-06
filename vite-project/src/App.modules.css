@@ -1,0 +1,13 @@
+.app {
+  background: url("../src/fotos/61097.jpg");
+
+  background-size: cover;
+  background-attachment: fixed; /* Esto fija el fondo para que no se desplace con el contenido */
+  margin: 0; /* Reset de los márgenes para evitar desplazamientos innecesarios */
+  padding: 10px; /* Reset del relleno */
+  min-height: 100vh;
+  margin-left: -10px;
+  margin-right: -8px;
+  margin-top: -8px;
+  margin-bottom: -8px;
+}

@@ -1,0 +1,24 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; /* Centra horizontalmente */
+}
+
+.filtros {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2395px;
+  margin-right: 650px;
+  gap: 25px;
+}
+
+.filtros select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  background-color: transparent;
+  color: white;
+}

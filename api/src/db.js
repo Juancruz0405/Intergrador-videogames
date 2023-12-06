@@ -1,8 +1,11 @@
-require("dotenv").config(); //para cargar las cosas de .env
+///
+require("dotenv").config(); //para leer las variables de .env
 const { Sequelize } = require("sequelize");
 const fs = require("fs");
 const path = require("path");
 const { DB_USER, DB_PASSWORD, DB_HOST } = process.env;
+const VideogameModel = require("./models/Videogame");
+const GenresModel = require("./models/Genres");
 
 const sequelize = new Sequelize(
   `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/videogames`,
@@ -10,7 +13,7 @@ const sequelize = new Sequelize(
     logging: false, // set to console.log to see the raw SQL queries
     native: false, // lets Sequelize know we can use pg-native for ~30% more speed
   }
-); //ESTO ES PARA CONECTARSE CON LA BASE DE DATOS
+); //CONEXION DE SEQUELIZE CON LA BASE DE DATOS
 const basename = path.basename(__filename);
 
 const modelDefiners = [];
@@ -37,6 +40,8 @@ sequelize.models = Object.fromEntries(capsEntries);
 
 // En sequelize.models están todos los modelos importados como propiedades
 // Para relacionarlos hacemos un destructuring
+VideogameModel(sequelize);
+GenresModel(sequelize);
 const { Videogame, Genres } = sequelize.models;
 
 // Aca vendrian las relaciones

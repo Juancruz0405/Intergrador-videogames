@@ -1,0 +1,37 @@
+.landing {
+  margin-top: 100px;
+}
+.titulo {
+  color: rgba(91, 192, 222, 0.9);
+  font-size: 100px; /* Aumentar el tamaño del texto */
+  font-family: "Saira", sans-serif;
+  text-shadow: 0 0px 10px rgba(213, 235, 241, 0.659);
+}
+/* Estilos para el botón de submit */
+/* Estilos para el botón de submit */
+.botonStart {
+  background-color: #06222b; /* Color de fondo transparente */
+  color: #0d4f63; /* Color del texto blanco */
+  padding: 10px 20px; /* Espaciado interno */
+  font-size: 100px; /* Tamaño de fuente */
+  border: 2px solid; /* Borde sólido transparente */
+  cursor: pointer; /* Cursor de puntero al pasar el ratón */
+  transition: background-color 1s, color 0.5s, border 0.5s; /* Transición suave para color de fondo, texto y borde */
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+/* Cambiar estilos al pasar el ratón sobre el botón */
+
+/* Cambiar estilos al pasar el ratón sobre el botón */
+.botonStart:hover {
+  background-color: rgba(
+    91,
+    192,
+    222,
+    0.9
+  ); /* Aumentar la opacidad para intensificar el color de fondo */
+  color: #083340; /* Cambiar el color del texto a blanco al pasar el ratón */
+  border: none; /* Agregar borde celeste al pasar el ratón */
+  box-shadow: 0 0px 40px rgba(91, 192, 222, 0.9); /* Aumentar la intensidad de la iluminación al pasar el ratón */
+}

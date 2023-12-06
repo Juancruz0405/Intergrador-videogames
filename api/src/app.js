@@ -17,6 +17,7 @@ server.use(morgan("dev")); // con el .USE le indicamos a la app q ocupe un middl
 server.use((req, res, next) => {
   //funcion que quiero que se ejecute al momento de que algo ocurra en mi puerto
   res.header("Access-Control-Allow-Origin", "http://localhost:3000"); // update to match the domain you will make the request from
+  res.header("Access-Control-Allow-Origin", "http://localhost:5173");
   res.header("Access-Control-Allow-Credentials", "true");
   res.header(
     "Access-Control-Allow-Headers",

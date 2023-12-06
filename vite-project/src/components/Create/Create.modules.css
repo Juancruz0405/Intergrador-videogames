@@ -1,0 +1,67 @@
+.todo {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(00, 00, 00, 0.5); /* Color celeste */
+  border-radius: 4px;
+  border: 1px;
+  box-shadow: 0 0px 15px rgba(91, 192, 222, 0.9);
+  transition: box-shadow 0.5s;
+}
+
+.todo:hover {
+  box-shadow: 0 0px 30px rgba(91, 192, 222, 0.9);
+}
+
+.miH1 {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 25px; /* Añade espacio entre el título y el formulario */
+  margin-left: 180px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Estilo para opciones seleccionadas */
+
+.input {
+  padding: 8px;
+  margin-bottom: 16px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.mySpan {
+  color: red;
+  font-size: 16px;
+  margin-top: -8px;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.myBoton {
+  background-color: #06222b;
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: background-color 1s, color 0.5s, border 0.5s;
+  margin-bottom: 15px;
+}
+
+.myBoton:hover {
+  background-color: white;
+  color: #083340;
+}
